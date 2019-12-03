@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button android:id="@+id/bind"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Bind to Service">"
+        <requestFocus />
+    </Button>
+
+    <Button android:id="@+id/unbind"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="UnBind from Service">
+    </Button>
+
+     <Button android:id="@+id/get_number"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Get Number">
+    </Button>
+
+</LinearLayout><!-- From: file:/D:/Android/Day4-5/LocalService/app/src/main/res/layout/main.xml -->
